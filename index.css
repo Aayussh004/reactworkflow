@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #282d35;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.navlogotext,
+.navtitle {
+  margin: 0;
+  display: inline;
+  /* margin; */
+}
+
+.navlogotext {
+  margin-right: auto;
+  margin-left: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.navtitle {
+  padding-left: 445px;
+  /* margin-left: 445px; */
+  color: #deebf8;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.navicon {
+  height: 70px;
+  margin-right: 17px;
+}
+
+.Maincontent {
+  background-color: #282d35;
+  padding: 55px 25px;
+  /* (top and bottom) (left and right) padding */
+  color: white;
+  /* background-image: url(logo.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-position-x: right; */
+}
+
+.Maincontent > h1 {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.facts {
+  margin-top: 65px;
+  /* padding-top: 20px; */
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+/* this will change the all bullets present in the page */
+::marker {
+  color: #61dafb;
+  font-size: 32px;
+}
